@@ -309,3 +309,117 @@ li {
     margin-right: 10px; 
 }
 
+
+* Media Query */
+@media only screen and (max-width: 600px) {
+    /* Header */
+    .nameHeader {
+      font-size: 24px;
+      padding: 10px;
+    }
+  
+    .headerMenu {
+      padding: 10px;
+    }
+  
+    .header-inline-block {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+  
+    /* Bio */
+    .bio {
+      flex-direction: column-reverse;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .bio-left {
+      flex: 1;
+      padding: 20px;
+    }
+  
+    .bioHeading {
+      font-size: 40px;
+    }
+  
+    /* About */
+    .about {
+        margin-top: 80px;
+    }
+    .main-heading-about {
+      font-size: 40px;
+    }
+  
+    .info-block {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+  
+    /* Work */
+
+    .column {
+        margin-top: 450px;
+    }
+    .main-heading {
+      font-size: 40px;
+    }
+  
+    .cya, .cleanEnergy, .ausCharity {
+      width: 100%;
+      margin-top: 10px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .text {
+      padding: 10px;
+    }
+  
+    .text p {
+      font-size: 16px;
+    }
+  
+    /* Skills */
+    .main-heading-skills {
+      font-size: 40px;
+    }
+  
+    .info-block {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .containerSkills {
+        margin-top: 20px;
+    }
+  
+    li {
+      font-size: 16px;
+    }
+  
+    /* Footer */
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+      margin-top: -500px;
+    }
+  
+    .left-content {
+      text-align: center;
+    }
+  
+    .footerMenu ul {
+      padding: 10px;
+      margin: 0;
+    }
+  
+    .footerMenu ul li {
+      margin-right: 5px;
+      font-size: 14px;
+    }
+  }
+  
